@@ -1,6 +1,7 @@
 import 'package:first_flutter_demo/demo/resource.dart';
 import 'package:flutter/material.dart';
 
+import 'demo/event.dart';
 import 'demo/layout_page.dart';
 import 'demo/scroll_page.dart';
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
 //      home: MyHomePage(title: 'Flutter Demo Home Page'),
 //      home: ResourcePage(title: '资源管理'),
 //      home: ScrollPage(title: '滚动监听'),
-      home: LayoutPage(title: '布局排版'),
+//      home: LayoutPage(title: '布局排版'),
+      home: EventPage(title: '交互事件'),
     );
   }
 }
